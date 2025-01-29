@@ -1,0 +1,89 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* 
+main color: #087f5b
+grey color: #343a40
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #343a40;
+    line-height: 1;
+
+    display: flex;
+    justify-content: center;
+}
+
+.pagination-container {
+    width: 400px;
+    margin-top: 200px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-link:link,
+.page-link:visited {
+    text-decoration: none;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    color: #000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-link:hover,
+.page-link:active, 
+.page-link.selected {
+    color: #fff;
+    background-color: #087f5b;
+    border-radius: 50%;
+}
+
+.dots {
+    color: #868e96;
+}
+
+.btn {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid #087f5b;
+    background-color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn--icon {
+    width: 24px;
+    height: 24px;
+    stroke: #087f5b;
+}
+
+.btn:hover {
+    background-color: #087f5b;
+}
+
+.btn:hover
+.btn--icon {
+    stroke: #fff;
+}
