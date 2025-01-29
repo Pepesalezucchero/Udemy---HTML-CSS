@@ -1,0 +1,139 @@
+* {
+    font-family: sans-serif;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+
+.page {
+    border: 3px solid black;
+    width: 825px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.product-title {
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #f7f7f7;
+    padding: 15px;
+    /* position: relative; */
+}
+
+.on-sale {
+    color: #fff;
+    background-color: #ec2f2f;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 7px 15px;
+    position: absolute;
+    top: -17px;
+    left: -38px;
+}
+
+/* .product-title::before {
+    content: 'SALE';
+    color: #fff;
+    background-color: #ec2f2f;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 7px 15px;
+    display: inline-block;
+    position: absolute;
+    top: -17px;
+    left: -38px;
+} */
+
+.price {
+    font-size: 24px;
+}
+
+.shipping {
+    font-size: 12px;
+    color: #777777;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.information-link:link, .information-link:visited {
+    color: black;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.information-link:hover {
+    text-decoration: none;
+}
+
+.color {
+    width: 22px;
+    height: 22px;
+    /* background-color: blue; */ /* DEBUG */
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.color-black {
+    background-color: #000;
+}
+
+.color-blue {
+    background-color: #2f6ee2;
+}
+
+.color-red {
+    background-color: #ec2f2f;
+}
+
+.color-yellow {
+    background-color: #f0bf1e;
+}
+
+.color-green {
+    background-color: #90cc20;
+}
+
+.color-brown {
+    background-color: #885214;
+}
+
+.color:last-child {
+    margin-right: 0;
+}
+
+.details {
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.list-element {
+    list-style: square;
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.btn {
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-top: 3px solid black;
+    width: 100%;
+    padding: 15px;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
